@@ -6,7 +6,9 @@ Using Sequalize, Winston (log), nodemon, joi packages.
 
 Wallet API Basic Operations.
 
-Transcation based DEBIT and CREDIT amount, Delete Transcation
+Import the .sql File and migrate the table.
+
+Transcation based DEBIT, CREDIT amount And Delete Transcation.
 
 API Coverted like
 
