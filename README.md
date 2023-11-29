@@ -10,7 +10,7 @@ Transcation based DEBIT and CREDIT amount, Delete Transcation
 
 API Coverted like
 
-1. Post the Transcation API
+**1. Post the Transcation API**
 
 POST METHOD:
 
@@ -29,7 +29,7 @@ Response:
     message: "Transaction Added Successfully"
 }
 
-2. List the Transcation API
+**2. List the Transcation API**
 
 GET METHOD:
 
@@ -54,7 +54,7 @@ Faliure Response:
     "error": "Invalid walledId"
 }
 
-3. Get the Wallet amount API
+**3. Get the Wallet amount API**
 
 API: localhost:3000/wallet/transaction?walletId=1
 
@@ -72,7 +72,7 @@ Faliure Response:
     "error": "Invalid walledId"
 }
 
-4. Update the Transcation API
+**4. Update the Transcation API**
 
 PUT METHOD:
 
@@ -91,7 +91,7 @@ Response:
     "message": "Transaction Updated Successfully"
 }
 
-5. Delete the Transcation API
+**5. Delete the Transcation API**
 
 DELET METHOD:
 
