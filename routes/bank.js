@@ -81,7 +81,7 @@
         walletTranscation.findAll({where : {wallet_id : walletId }}).then((result)=>{
           let amount = 0;
           result.map((data) => {
-            if (data.type == 'DEBIT' && data.deleted_status == 0){
+            if (data.type == 'CREDIT' && data.deleted_status == 0){
                 amount = amount +data.amount
             }
             return 0;
